@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+body {
+    font-family: "helvetica";
+}
+
+.searchbox {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.header {
+    background: #f3898e;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+#value {
+    border: none;
+    background-color: #fff;
+    padding: 6px;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 6px;
+    color: #000;
+}
+
+#value:focus {
+    outline: none;
+}
+
+.container {
+    background: #f3898e;
+    padding: 1%;
+}
+
+.item {
+    margin: 3% 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 470;
+    color: #fff;
+}
+
